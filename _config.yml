@@ -1,1 +1,66 @@
+# Site settings
+title: Your Name - Portfolio
+description: A collection of my projects and achievements
+baseurl: "" # Leave empty if hosting at username.github.io
+url: "https://yourusername.github.io" # Replace "yourusername" with your GitHub username
+email: your.email@example.com # Replace with your email
 
+# Owner/Author info
+author:
+  name: Your Full Name # Replace with your name
+  email: your.email@example.com # Replace with your email
+  bio: "Creative developer passionate about building cool stuff." # Add your bio
+  avatar: "/assets/images/profile-pic.jpg" # Add a profile pic to /assets/images/ later
+  twitter: yourtwitter # Replace with your Twitter username
+  github: yourgithub # Replace with your GitHub username
+  linkedin: yourlinkedin # Replace with your LinkedIn username
+  instagram: yourinstagram # Replace with your Instagram username (optional)
+  facebook: yourfacebook # Replace with your Facebook username (optional)
+
+# Theme settings
+remote_theme: mmistakes/minimal-mistakes@4.24.0 # Using Minimal Mistakes theme
+minimal_mistakes_skin: "default" # Options: "default", "air", "mint", "contrast", etc. - pick one!
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# Collections for portfolio projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Default settings for project pages
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+
+# Social sharing and footer links
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/yourtwitter" # Replace with your Twitter URL
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yourgithub" # Replace with your GitHub URL
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yourlinkedin" # Replace with your LinkedIn URL
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/yourinstagram" # Replace with your Instagram URL (optional)
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/yourfacebook" # Replace with your Facebook URL (optional)
