@@ -1,25 +1,23 @@
 # Site settings
-title: Your Name - Portfolio
+title: Saimani Ippili - Portfolio
 description: A collection of my projects and achievements
-baseurl: "" # Leave empty if hosting at username.github.io
-url: "https://yourusername.github.io" # Replace "yourusername" with your GitHub username
-email: your.email@example.com # Replace with your email
+baseurl: "" # Leave empty since it’s hosted at saimaniippili.github.io
+url: "https://saimaniippili.github.io" # Your GitHub Pages URL
+email: saimani@example.com # Replace with your actual email
 
 # Owner/Author info
 author:
-  name: Your Full Name # Replace with your name
-  email: your.email@example.com # Replace with your email
-  bio: "Creative developer passionate about building cool stuff." # Add your bio
+  name: Saimani Ippili
+  email: saimani@example.com # Replace with your actual email
+  bio: "Creative developer passionate about building innovative solutions." # Customize this!
   avatar: "/assets/images/profile-pic.jpg" # Add a profile pic to /assets/images/ later
-  twitter: yourtwitter # Replace with your Twitter username
-  github: yourgithub # Replace with your GitHub username
-  linkedin: yourlinkedin # Replace with your LinkedIn username
-  instagram: yourinstagram # Replace with your Instagram username (optional)
-  facebook: yourfacebook # Replace with your Facebook username (optional)
+  twitter: Smippili
+  github: saimaniippili
+  linkedin: saimani-ippili-356830247
 
 # Theme settings
-remote_theme: mmistakes/minimal-mistakes@4.24.0 # Using Minimal Mistakes theme
-minimal_mistakes_skin: "default" # Options: "default", "air", "mint", "contrast", etc. - pick one!
+remote_theme: mmistakes/minimal-mistakes@4.24.0 # Minimal Mistakes theme
+minimal_mistakes_skin: "mint" # A fresh, modern look - you can change to "default", "air", etc.
 
 # Build settings
 markdown: kramdown
@@ -51,16 +49,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/yourtwitter" # Replace with your Twitter URL
+      url: "https://x.com/Smippili"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourgithub" # Replace with your GitHub URL
+      url: "https://github.com/saimaniippili"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yourlinkedin" # Replace with your LinkedIn URL
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/yourinstagram" # Replace with your Instagram URL (optional)
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/yourfacebook" # Replace with your Facebook URL (optional)
+      url: "https://www.linkedin.com/in/saimani-ippili-356830247/"
